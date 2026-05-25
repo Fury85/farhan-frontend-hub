@@ -1,0 +1,246 @@
+/* Laptop */
+
+@media (max-width: 1200px) {
+
+    .container {
+        max-width: 1000px;
+    }
+
+    .hero {
+        gap: 40px;
+    }
+
+    .pic {
+        width: 260px;
+        height: 260px;
+    }
+
+    .text h1 {
+        font-size: 2.5rem;
+    }
+
+    .text p {
+        font-size: 1.6rem;
+    }
+
+    .navbar a {
+        font-size: 1.2rem;
+    }
+
+    .projects-cards-detail-2 {
+        max-width: 1000px;
+    }
+
+    .projects-cards-1,
+    .projects-cards-2 {
+        padding: 0 20px;
+    }
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+
+    .container {
+        max-width: 800px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 0;
+    }
+
+    .about {
+        max-width: 100%;
+    }
+
+    .short-intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-me img {
+        width: 250px;
+    }
+
+    .experience-detail-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects-cards-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects-cards-detail-2 {
+        max-width: 500px;
+    }
+
+    .contact-info {
+        padding: 0;
+    }
+
+    .contact-info a {
+        font-size: 16px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .navbar {
+        margin: 0 20px;
+    }
+
+    .navbar-links {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        width: 200px;
+        flex-direction: column;
+        background: var(--bg-main);
+        padding: 15px;
+        border: 1px solid var(--border-color);
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+    }
+
+    .navbar-links.open {
+        display: flex;
+    }
+
+    body.dark .navbar-links {
+        background: #121212;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero {
+        margin: 0 20px;
+    }
+
+    .pic {
+        width: 200px;
+        height: 200px;
+    }
+
+    .text h1 {
+        font-size: 2rem;
+    }
+
+    .text p {
+        font-size: 1.3rem;
+    }
+
+    .download-btn a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .about-me,
+    .experience,
+    .contact-me {
+        padding: 100px 20px;
+    }
+
+    .experience-cards {
+        flex: 1 1 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .card-detail {
+        flex: 1 1 calc(50% - 15px);
+        min-width: 120px;
+    }
+
+    .card-text h2 {
+        font-size: 1.4rem;
+    }
+
+    .projects-cards-detail-1,
+    .projects-cards-detail-2 {
+        max-width: 100%;
+    }
+
+    .links {
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 14px;
+    }
+}
+
+/* Small Mobile */
+
+@media (max-width: 480px) {
+    .card-detail {
+        flex: 1 1 100%;
+        min-width: auto;
+    }
+
+    .experience-cards {
+        padding: 15px;
+    }
+
+    .card-text h2 {
+        font-size: 1.3rem;
+    }
+
+    .text h1 {
+        font-size: 1.6rem;
+    }
+
+    .text p {
+        font-size: 1.1rem;
+    }
+
+    .pic {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* Smallest Mobile */
+
+@media (max-width: 450px) {
+    .nav-right {
+        gap: 5px;
+    }
+
+    .card-detail {
+        margin: 7px 5px;
+    }
+
+    .card-detail-img {
+        margin: 0 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .projects-cards-detail-1 div:last-child,
+    .projects-cards-detail-2 div:last-child {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .projects-cards a {
+        width: 100%;
+        text-align: center;
+    }
+}

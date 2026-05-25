@@ -1,0 +1,84 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: var(--bg-main);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    position: relative;
+}
+
+.modal-content img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--text-main);
+}
+
+.modal-buttons a.disabled,
+.modal-buttons a[href="#"] {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.modal-buttons a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin: 0 5px;
+    color: var(--text-main);
+    background-color: var(--bg-secondary);
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.modal-buttons a:hover {
+    color: var(--bg-main);
+    background-color: var(--bg-black);
+    cursor: pointer;
+    transition: all ease-in-out 0.4s;
+}
+
+/* Dark Mode */
+
+body.dark .modal-content {
+    background-color: var(--bg-secondary);
+}
+
+body.dark .modal-close {
+    color: var(--text-main);
+}
+
+body.dark .modal-buttons a {
+    color: var(--text-main);
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
+body.dark .modal-buttons a:hover {
+    color: var(--text-main);
+    background-color: var(--bg-main);
+}

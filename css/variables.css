@@ -1,0 +1,22 @@
+/* Light Mode Colors */
+:root {
+    --bg-main: #ffffff;
+    --bg-secondary: #f9f9f9;
+    --bg-black: #000000;
+    --text-main: #111111;
+    --text-secondary: #555555;
+    --card-bg: #ffffff;
+    --border-color: #dddddd;
+    --accent-color: #06b6d4;
+}
+
+/* Dark Mode Colors */
+
+body.dark {
+    --bg-main: #121212;
+    --bg-secondary: #1e1e1e;
+    --text-main: #ffffff;
+    --text-secondary: #bbbbbb;
+    --card-bg: #1e1e1e;
+    --border-color: #333333;
+}

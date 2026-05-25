@@ -1,0 +1,48 @@
+.contact-me {
+    padding: 130px 0;
+    text-align: center;
+    background-color: var(--bg-main);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.contact-info {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: var(--text-main);
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    color: rgb(181, 181, 181);
+    text-decoration: underline rgb(181, 181, 181);
+    transition: all ease-in-out 0.5s;
+}
+
+.contact-info img {
+    width: 40px;
+}
+
+body.dark .contact-info a {
+    color: var(--text-main);
+}
+
+body.dark .contact-info img {
+    filter: invert(100%);
+}
