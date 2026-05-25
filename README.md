@@ -1,8 +1,8 @@
 Muhammad Farhan — Frontend Developer Portfolio
 A modern and responsive frontend developer portfolio showcasing my latest UI/UX projects and frontend development skills.
 
-Live Preview
-
+Live Preview: 
+https://farhan-dev-portfolio.netlify.app/
 
 Featured Projects
 1. Weather App
