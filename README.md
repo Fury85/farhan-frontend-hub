@@ -20,18 +20,18 @@ A modern glassmorphism-based weather application providing real-time weather upd
 
 **Features**
 
-* - Real-time weather search
-* - Responsive design
-* - Glassmorphism UI
-* - Dark mode aesthetics
-* - Dynamic weather data
+* Real-time weather search
+* Responsive design
+* Glassmorphism UI
+* Dark mode aesthetics
+* Dynamic weather data
 
 **Technologies Used**
 
-* - HTML5
-* - CSS3
-* - JavaScript
-* - Weather API
+* HTML5
+* CSS3
+* JavaScript
+* Weather API
 
 ---
 
@@ -45,17 +45,17 @@ A responsive social media interface inspired by modern social platforms with a c
 
 **Features**
 
-* - Responsive layout
-* - Dark mode interface
-* - Sidebar navigation
-* - Simulated feed system
-* - Modern UI/UX structure
+* Responsive layout
+* Dark mode interface
+* Sidebar navigation
+* Simulated feed system
+* Modern UI/UX structure
 
 **Technologies Used**
 
-* - HTML5
-* - Tailwind CSS
-* - JavaScript
+* HTML5
+* Tailwind CSS
+* JavaScript
 
 ---
 
@@ -69,39 +69,39 @@ A premium restaurant landing page designed with a modern dark aesthetic and inte
 
 **Features**
 
-* - Modern hero section
-* - Responsive navigation
-* - Interactive UI
-* - Food showcase sections
-* - Smooth user experience
+* Modern hero section
+* Responsive navigation
+* Interactive UI
+* Food showcase sections
+* Smooth user experience
 
 **Technologies Used**
 
-* - HTML5
-* - CSS3
-* - JavaScript
+* HTML5
+* CSS3
+* JavaScript
 
 ---
 
 ## 🚀 Portfolio Features
 
-* - Fully Responsive Design
-* - Modern Dark UI
-* - Smooth Scrolling
-* - Interactive Components
-* - Project Showcase Modals
-* - Clean File Structure
-* - Optimized User Experience
-* - Glassmorphism UI
+* Fully Responsive Design
+* Modern Dark UI
+* Smooth Scrolling
+* Interactive Components
+* Project Showcase Modals
+* Clean File Structure
+* Optimized User Experience
+* Glassmorphism UI
 
 ---
 
 ## 🛠️ Technologies Used
 
-* - HTML5
-* - CSS3
-* - JavaScript
-* - Responsive Web Design
+* HTML5
+* CSS3
+* JavaScript
+* Responsive Web Design
 
 ---
 
@@ -124,22 +124,22 @@ README.md
 
 This portfolio helped me improve my skills in:
 
-* - Frontend Architecture
-* - Responsive Development
-* - UI/UX Design
-* - JavaScript DOM Manipulation
-* - Modern Web Layouts
-* - Clean Code Practices
+* Frontend Architecture
+* Responsive Development
+* UI/UX Design
+* JavaScript DOM Manipulation
+* Modern Web Layouts
+* Clean Code Practices
 
 ---
 
 ## 🔮 Future Improvements
 
-* - React Version
-* - API Integrations
-* - Better Animations
-* - Backend Connectivity
-* - Advanced Interactive Components
+* React Version
+* API Integrations
+* Better Animations
+* Backend Connectivity
+* Advanced Interactive Components
 
 ---
 
